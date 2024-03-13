@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+    <!--ADICIONAR FAVICON-->
+</head>
+<body>
+    
+    <figure>
+        <img src="/assets/stitch.png" alt="desenho lilo e stitch" width="400px">
+        <figcaption>O nosso extraterrestre mais divertido do mundo.</figcaption>
+        <!--figcaption coloca uma frase pequena abaixo da imagem-->      
+    </figure>
+    <figure>
+        <img src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2018/02/ii.png" alt="imagem do senhor incrivel com o zezé" width="400px">
+        <figcaption>O senhor incrível está muito cansando hahaha</figcaption>
+    </figure>
+    <fugure>
+        <img src="https://municipais.org.br/wp-content/uploads/2019/11/reges.png" alt="Logo faculdade Reges - Ribeirão Preto" width="400px">
+        <figcaption>Logo da faculdade Reges de Ribeirão Preto</figcaption>    
+    </fugure>
+    <fugure>
+        <a href="links.html" target="_blank"><img src="data:image/png;base64,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" alt="seta apontada para a esquerda" width="400px"></a>
+        <figcaption>clique na imagem para voltar a tela de links</figcaption>    
+    </fugure>
+    <br><br>
+        <a href="Sumario.html" target="_blank"><button>Voltar para Sumario</button></a>
+</body>
+</html>
