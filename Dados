@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--O viewport é para carregar o site no formato do navegador-->
+    <link rel="icon" type="image/x-icon" href="assets/balao.png"> <!--Para colocar imagem no topo do site-->
+    <title>Dados</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+    <!--Parágrafo-->
+    <p>Olá coleguinha</p> <!--esta tag é de parágrafo-->
+    <p>
+        Caso tenha ficado alguma <b>dúvida</b> após a sua aula, por favor, entrar em contato por: <br/>
+        Telefone: (16) 99416-8273 <br/>
+        E-mail: riquenegri11@gmail.com <br/>
+    </p>
+    
+    <h2>Exemplo de Lista Ordenada</h2>
+    <ol> <!--OL Indica uma lista ordenada--> <!---->
+        <li>C#</li> <!--Itens da lista ordenada-->
+        <li>Java</li>
+        <li>PHP</li>
+        <li>Delphi</li>
+        <li>Python</li>
+    </ol>
+
+    <h2> Exemplo de lista de tópicos </h2>
+    <ul style="list-style-type: upper-roman"> <!--uL Indica uma lista de tópicos--> <!--e o style para mudar o estilo dos tópicos-->
+        <li>Mouse</li> <!--Itens da lista ordenada-->
+        <li>monitor</li>
+        <li>teclado</li>
+        <li>SSD</li>
+        <li>Placa de vídeo</li>
+    </ul>
+
+    <!-- Inserir Imagens -->
+    <img src="/assets/universe.jpg" alt="Imagem do nosso Universo">
+
+    <script src="script.js">
+        </script>
+        <br>
+        <br>
+        <a href="Sumario.html" target="_blank"><button>Voltar para o Sumario</button></a>
+</body>
+
+</html>
