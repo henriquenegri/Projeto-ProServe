@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário FullCar</title>
+
+</head>
+<body>
+    
+    <h3>Formulário FullCar</h3>
+    <hr>
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Dados dos carros: </legend>
+            <label>Tipo do veículo: </label>
+            <label>
+            <input type="radio" name="tipo_car" value="new">Novo
+            </label>
+            <label>
+            <input type="radio" name="tipo_car" value="old">Antigo
+            </label><br/><br/>
+            <label>Categoria: </label>
+            <select name="categ" id="categ">
+                <option value="Hatch">Hatch</option>
+                <option value="SUV">SUV</option>
+                <option value="Seda">Sedã</option>
+                <option value="Picape">Picape</option>  
+                <option value="Utilitario">Utilitário</option>  
+                <option value="Perua">Perua</option>  
+                <option value="Minivan">Minivan</option>
+                <option value="Conversível">Conversível</option>
+            </select>
+
+            <label>Fabricante: </label>
+            <select name="fabric" id="fabric">
+                <option value="Fiat">Fiat</option>
+                <option value="Ford">Ford</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Volskwagen">Volskwagen</option>  
+                <option value="Citroen">Citroën</option>  
+                <option value="Renault">Renault</option>  
+                <option value="Kia">Kia</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+
+            <label>Modelo: </label>
+            <input type="text" name="model" id="model" placeholder="Ex: Corola ou Chronos">
+            
+            <label>Quilometragem: </label>
+            <input type="text" name="km" id="km" placeholder="340.600"><br/><br/>
+            
+            <label>Preço: </label>
+            <input type="text" name="valor" id="valor" placeholder="Ex: R$ 200.000,00">
+            
+            <label>Placa: </label>
+            <input type="text" name="placa" id="placa"  placeholder="jky9l12"><br/><br/>
+            
+            <label>Câmbio: </label>
+            <label>
+            <input type="radio" name="cambio" value="manual">Manual
+            </label>
+            <label>
+            <input type="radio" name="cambio" value="auto">Automático
+            </label><br/><br/>
+            
+            <label>Blindagem: </label>
+            <label>
+            <input type="radio" name="blind" value="Sim">Sim
+            </label>
+            <label>
+                <input type="radio"  name="blind" value="Não">Não
+            </label><br/><br/>
+            <label>Nº de Portas: </label>
+            <input type="number" name="portas" id="portas">
+            <label>Combustível: </label>
+            <select name="comb" id="comb">
+                <option value="Etanol">Etanol</option>
+                <option value="Gasolina">Gasolina</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Flex">Flex</option>  
+                <option value="eletrico">Elétrico</option> 
+            </select><br/><br/>
+            
+            <label>Arquivo: </label>
+            <input type="file" name="arquivo" id="arquivo" accept=".jpeg"/>
+            <br/><br/>
+
+            <label>Descrição: </label>
+            <input type="<textarea rows="" cols=""></textarea>
+    
+            </fieldset>
+        
+            
+        
+</body>
+</html>
